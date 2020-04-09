@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/Acerca-de-nosotros', function () {
     return view('about');
 });
+
+Route::get('/Servicios', function () {
+    return view('service');
+});
