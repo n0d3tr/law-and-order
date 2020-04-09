@@ -10,13 +10,77 @@
                     <div class="page_link">
                         <a href="/">Inicio</a>
                         <a href="/Servicios">Servicios</a>
+                        <a href="#">Consultoría jurídica</a>
                     </div>
-                    <h2>Nuestros servicios</h2>
+                    <h2>Consultoría jurídica</h2>
                 </div>
             </div>
         </div>
     </section>
 	<!--================End Home Banner Area =================-->
+
+	<div class="whole-wrap">
+		<div class="container">
+			<div class="section-top-border">
+				{{-- <h3 class="mb-30 title_color">Left Aligned</h3> --}}
+				<div class="row">
+					<div class="col-md-3">
+						<img src="{{ asset('img/elements/d.jpg') }}" alt="" class="img-fluid">
+					</div>
+					<div class="col-md-9 mt-sm-20 left-align-p">
+						<p style="font-size:15px">Este servicio está dirigido a personas naturales y jurídicas que requieran de respuestas fundamentadas en estrategias y acciones especializadas. Planteándoles las mejores alternativas para la solución de sus conflictos de una manera integral, rigurosa y eficiente, desde la realización de diferentes estudios legales.</p>
+						<h4 class="mb-30 title_color">Este servicio incluye:</h4>
+						<ul class="unordered-list">
+							<li>Fta Keys</li>
+							<li>For Women Only Your Computer Usage</li>
+							<li>Facts Why Inkjet Printing Is Very Appealing
+								<ul>
+									<li>Addiction When Gambling Becomes
+										<ul>
+											<li>Protective Preventative Maintenance</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>Dealing With Technical Support 10 Useful Tips</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="section-top-border">
+				<h3 class="mb-30 title_color">Otros servicios:</h3>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="single-defination">
+							<h4 class="mb-20">Consultoría jurídica</h4>
+							<p>Recently, the US Federal government banned online casinos from operating in America by making it illegal to
+								transfer money to them through any US bank or payment system. As a result of this law, most of the popular
+								online casino networks</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="single-defination">
+							<h4 class="mb-20">Representación jurídica</h4>
+							<p>Recently, the US Federal government banned online casinos from operating in America by making it illegal to
+								transfer money to them through any US bank or payment system. As a result of this law, most of the popular
+								online casino networks</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="single-defination">
+							<h4 class="mb-20">Asesoría legal empresarial</h4>
+							<p>Recently, the US Federal government banned online casinos from operating in America by making it illegal to
+								transfer money to them through any US bank or payment system. As a result of this law, most of the popular
+								online casino networks</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!--================ Start service Area =================-->
 	<section class="service-area section_gap">
 		<div class="container">
@@ -37,7 +101,7 @@
 							<img class="img-fluid" src="img/service/service1.jpg" alt="">
 						</div>
 						<div class="service-details">
-							<h5><a href="/Servicios/Consultoria-Juridica">Consultoría Jurídica</a></h5>
+							<h5><a href="#">Consultoría Jurídica</a></h5>
 							<p>Este servicio está dirigido a personas naturales y jurídicas que requieran de respuestas fundamentadas...</p>
 						</div>
 					</div>
@@ -106,22 +170,5 @@
 		</div>
 	</section>
 	<!--================ End service Area =================-->
-	<section class="video-sec-area section_gap_top" id="about">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 video-left overlay">
-					{{-- <div class="video-inner justify-content-center align-items-center d-flex">
-						<a id="play-home-video" class="video-play-button" href="https://www.youtube.com/watch?time_continue=2&v=J9YzcEe29d0">
-							<span></span>
-						</a>
-					</div> --}}
-				</div>
-				<div class="col-lg-6 video-right">
-					<h1>Ofrecer el mejor asesoramiento y acompañamiento legal</h1>
-					<p>Somos un grupo de profesionales dedicados al asesoramiento y acompañamiento para clientes que estén con dudas en todo lo referente a los derechos y deberes que tenemos en materia de derecho laboral y la seguridad social; brindando seguridad, compromiso, responsabilidad, eficiencia y eficacia.</p>
-				</div>
-			</div>
-		</div>
-    </section>
-    <br><br><br><br>
+
 @endsection

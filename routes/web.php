@@ -24,3 +24,10 @@ Route::get('/Acerca-de-nosotros', function () {
 Route::get('/Servicios', function () {
     return view('service');
 });
+
+Route::get('/Servicios/{name}', function ($name) {
+    if ($name == 'Consultoria-Juridica') {
+        // echo $name;
+        return view('consultoriaJuridica');
+    }
+});
